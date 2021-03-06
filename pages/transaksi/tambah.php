@@ -102,7 +102,7 @@ if(isset($_POST['tambah_transaksi'])){
                         </div>
 
                         <div class="form-group">
-                            <label for="harga">Harga </label>
+                            <label for="harga">Harga total</label>
                             <input class="form-control" type="text" name="harga" placeholder="Harga barang" />
                         </div>
 
