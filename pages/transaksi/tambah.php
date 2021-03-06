@@ -39,7 +39,6 @@ if(isset($_POST['tambah_transaksi'])){
      header("Location: list.php");
 }
 
-
 ?>
 
 
@@ -90,7 +89,7 @@ if(isset($_POST['tambah_transaksi'])){
                     <form  method="post" cation="" >
 
                         <div class="form-group">
-                            <label for="kode_barang">Kode Barang</label>
+                            <label for="kode_barang">Kode Transaksi</label>
                             <input class="form-control" type="text" name="kode_barang" placeholder="Kode barang " />
                         </div>
 
